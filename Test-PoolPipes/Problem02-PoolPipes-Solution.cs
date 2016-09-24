@@ -12,7 +12,7 @@ class PoolPipes
 
         if (water <= volume)
         {
-            Console.WriteLine("The pool is {0}% full. Pipe 1: {1}%. Pipe 2: {2}%.",
+            Console.WriteLine("The pool is {0}% full. Pipe number 1: {1}%. Pipe number 2: {2}%.",
                 Math.Truncate(water / volume * 100),
                 Math.Truncate(pipe1 * hours / water * 100),
                 Math.Truncate(pipe2 * hours / water * 100));
