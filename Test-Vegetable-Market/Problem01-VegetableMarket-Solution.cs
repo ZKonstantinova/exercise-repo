@@ -17,7 +17,7 @@ namespace Zelenchukova_Borsa
             int fruitKilo = int.Parse(Console.ReadLine());
             double sumBG = (vegPrice * vegKg) + (fruitPrice * fruitKilo);
 
-            int fruitKg = int.Parse(Console.ReadLine());
+            int fruitKilo = int.Parse(Console.ReadLine());
             double sumBG = (vegePrice * vegKg) + (fruitPrice * fruitKg);
 
             double sumEUR = sumBG / 1.94 ;
