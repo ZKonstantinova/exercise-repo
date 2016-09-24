@@ -1,15 +1,28 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class VegetableMarket
+namespace Zelenchukova_Borsa
 {
-    static void Main()
+    class Program
     {
-        var vegInLv = double.Parse(Console.ReadLine());
-        var fruitsInLv = double.Parse(Console.ReadLine());
+        static void Main(string[] args)
+        {
+            double vegPrice = double.Parse(Console.ReadLine());
+            double fruitPrice = double.Parse(Console.ReadLine());
+            int vegKg = int.Parse(Console.ReadLine());
+            int fruitKg = int.Parse(Console.ReadLine());
+            double sumBG = (vegPrice * vegKg) + (fruitPrice * fruitKg);
+            double sumEUR = sumBG / 1.94 ;
 
-        var vegPerKg = int.Parse(Console.ReadLine());
-        var fruitsPerKg = int.Parse(Console.ReadLine());
+            Console.WriteLine(sumEUR);
 
-        Console.WriteLine((vegInLv * vegPerKg + fruitsPerKg * fruitsInLv) / 1.94);
+
+
+
+
+        }
     }
 }
