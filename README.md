@@ -1,4 +1,6 @@
 # exercise-repository 
 The purpose of this repository:
-Repository made for exercises
+
+1. Repository made for exercises
 2. Other
+
