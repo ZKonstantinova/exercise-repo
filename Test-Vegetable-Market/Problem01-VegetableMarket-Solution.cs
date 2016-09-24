@@ -10,11 +10,16 @@ namespace Zelenchukova_Borsa
     {
         static void Main(string[] args)
         {
-            double vegPrice = double.Parse(Console.ReadLine());
+            double vegePrice = double.Parse(Console.ReadLine());
             double fruitPrice = double.Parse(Console.ReadLine());
             int vegKg = int.Parse(Console.ReadLine());
+
             int fruitKilo = int.Parse(Console.ReadLine());
             double sumBG = (vegPrice * vegKg) + (fruitPrice * fruitKilo);
+
+            int fruitKg = int.Parse(Console.ReadLine());
+            double sumBG = (vegePrice * vegKg) + (fruitPrice * fruitKg);
+
             double sumEUR = sumBG / 1.94 ;
 
             Console.WriteLine(sumEUR);
